@@ -4,11 +4,11 @@ plugins {
 
 android {
     namespace = "com.flt.checklist"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.flt.checklist"
-        minSdk = 33
+        minSdk = 30
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
