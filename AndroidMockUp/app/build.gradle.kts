@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.flt.checklist"
-        minSdk = 30
+        minSdk = 20
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
