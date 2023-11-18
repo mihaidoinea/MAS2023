@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText android:id="@+id/firstValue" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="Enter your text here"/>
+
+    <EditText android:id="@+id/secondValue" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="Enter your text here"/>
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <Button android:id="@+id/srvCall" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:text="Concatenate"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:textSize="25sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
