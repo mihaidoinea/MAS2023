@@ -57,13 +57,13 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
     }
 
-    public static byte[] read(Context context, String file) throws IOException {
+    public static byte[] read(Context context, String fileName) throws IOException {
         byte[] ret = null;
 
         if (context != null) {
             try {
-                String fileName = context.getFilesDir() + "/" + file;
-                InputStream inputStream = new FileInputStream(fileName);
+                String filePath = context.getFilesDir() + "/" + fileName;
+                InputStream inputStream = new FileInputStream(filePath);
                 ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
                 int nextByte = inputStream.read();
